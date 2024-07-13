@@ -1,0 +1,102 @@
+/* font url  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* basic setup  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* colors  */
+/* .logo__color {
+  background-color: #5143d9;
+} */
+
+.black__color {
+  background-color: #0b0a12;
+}
+.black {
+  color: #0b0a12;
+}
+
+/* add image in container  */
+.header__container {
+  background-image: url("https://booking.webestica.com/assets/images/category/hotel/resort/bg-01.jpg");
+  background-position: center left;
+  background-size: cover;
+  height: fit-content;
+}
+
+.navbtn__color {
+  background-color: #7a6deb !important;
+  transition: 0.2s;
+}
+.navbtn__color:hover {
+  background-color: #5d4bff !important;
+}
+.nav-link:hover {
+  color: #7a6deb !important;
+}
+.nav-link {
+  color: white;
+}
+.navbar-toggler {
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.navbar-toggler-icon {
+  color: white !important;
+}
+.logo {
+  width: 110px;
+  height: auto;
+}
+
+.purple {
+  color: #5d4bff !important;
+}
+
+.fade__white {
+  background-color: rgb(235 235 235 / 63%) !important;
+}
+
+.glass__color {
+  background-color: #00000052 !important;
+}
+
+/* @media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+/* @media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+} */
